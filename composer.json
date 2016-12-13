@@ -1,6 +1,13 @@
 {
-    "name": "registry/client",
+    "name": "linkorb/registry-client-php",
     "version": "1.0",
+    "authors": [
+        {
+            "name" : "LinkORB",
+            "email" : "engineering@linkorb.com",
+            "role" : "Development"
+        }
+    ],
     "require": {
         "linkorb/registry-common": "^1.0",
         "guzzlehttp/guzzle": "~6.0"
@@ -11,9 +18,6 @@
         }
     },
     "require-dev": {
-        "linkorb/autotune": "^1.2",
-        "symfony/var-dumper": "^3.1",
         "phpunit/phpunit": "^4.8"
     }
 }
-
