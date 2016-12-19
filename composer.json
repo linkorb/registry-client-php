@@ -1,13 +1,23 @@
 {
-    "name": "registry/client",
+    "name": "linkorb/registry-client-php",
     "version": "1.0",
+    "authors": [
+        {
+            "name" : "LinkORB",
+            "email" : "engineering@linkorb.com",
+            "role" : "Development"
+        }
+    ],
     "require": {
+        "linkorb/registry-common": "^1.0",
         "guzzlehttp/guzzle": "~6.0"
     },
     "autoload": {
         "psr-4" : {
-            "Registry\\Client\\" : "src/"
+            "Registry\\Client\\" : "src/Client/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
     }
 }
-

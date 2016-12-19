@@ -1,0 +1,43 @@
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.yml.bak
+
+# Logs
+app/logs
+
+# Managed by package managers
+/vendor/
+/assets/bower/
+/web/bower/
+
+# Composer
+/composer.lock
+/composer.phar
+
+# Tests
+tests/behat.yml
+tests/phpunit.xml
+
+# Mac
+.DS_Store
+
+# Project
+*.sublime-*
+/.project
+/.settings
+/.buildpath
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+
+*.iml
+
+## Directory-based project format:
+.idea/
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+test/nginx/*.conf
+!test/nginx/.gitkeep
+
+/autotune.json
