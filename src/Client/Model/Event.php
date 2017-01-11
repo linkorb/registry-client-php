@@ -148,7 +148,7 @@ class Event implements JsonSerializable
     public function jsonSerialize()
     {
         $properties = array();
-        foreach ( $this->flatten($this->properties) as $k => $v) {
+        foreach ($this->flatten($this->properties) as $k => $v) {
             $properties[utf8_encode($k)] = utf8_encode($v);
         }
         return array(

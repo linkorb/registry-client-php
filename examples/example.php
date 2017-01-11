@@ -2,8 +2,8 @@
 
 require 'vendor/autoload.php';
 
-use \Registry\Client\ClientBuilder;
-use \Registry\Client\Store;
+use Registry\Client\ClientBuilder;
+use Registry\Client\Store;
 
 // Set up the Store
 $config = array(
